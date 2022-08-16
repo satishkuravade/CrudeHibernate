@@ -15,7 +15,7 @@ public interface EmployeeDaoI {
 	
 	public Employee Logincheck(Employee emp);
 	
-	public Employee edit(Employee empId);
+	public Employee edit(int empId);
 	
 	public Employee Delete(int empId);
 	
